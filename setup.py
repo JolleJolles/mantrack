@@ -9,7 +9,7 @@ from __future__ import print_function
 from setuptools import setup
 import sys
 
-exec(open('__version__.py').read())
+exec(open('/mantrack/__version__.py').read())
 
 
 DESCRIPTION = """
