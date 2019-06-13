@@ -1,11 +1,7 @@
-<style type='text/css'>
-img[alt=mantrack]{width: 400px; margin:0 auto;}
-</style>
-
 # ManTrack
 **A standalone manual tracking package**
 
-![mantrack](mantrack-in-action.png)
+![mantrack](mantrack-in-action-small.jpg)
 
 *ManTrack* is the standalone version of the manual tracking functionality
 that is part of the (still private) AnimTrack package by J.W.Jolles. To see *ManTrack* in action, watch the video [here](https://www.youtube.com/watch?v=W6H6J0QbukkO)
