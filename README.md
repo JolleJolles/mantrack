@@ -7,6 +7,13 @@
 that is part of the (still private) AnimTrack package by J.W.Jolles. To see *ManTrack* in action, watch the video [here](https://www.youtube.com/watch?v=W6H6J0QbukkO)
 
 
+Quick Install
+------------
+```bash
+pip install git+https://github.com/JolleJolles/mantrack.git
+```
+
+
 Setting-up mantrack
 ------------
 <em>This guide is written for Mac OS.</em>
