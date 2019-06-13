@@ -1,0 +1,43 @@
+All notable changes to this project will be documented in this file. For a
+complete changelog, see https://github.com/jollejolles/mantrack/commits/
+
+
+190613 - 4.0.0  Made ManTrack into a standalone package available on Github
+190613 - 3.2.6  Fixed issue with windows not being shown properly in Windows OS
+190426 - 3.2.5  Fixed error when start and stopframe where less than 4
+190122 - 3.2.4  Improved notes
+190122 - 3.2.3  Fixed a number of small issues, mainly to do with python3
+181213 - 3.2.2  Fixed sequential files overwriting each other
+181212 - 3.2.1  Savedata now checks if there is actually data to be written
+181212 - 3.2.0  Added functionality to create multiple datafiles within same manual tracking instance
+181212 - 3.1.0  Added custom stepsize function
+181212 - 3.0.3  Fixed cropping data not cropping
+181207 - 3.0.2  Fixed further issue with updating of trackbar
+181207 - 3.0.1  Fixed updating of trackbar based on keypresses
+181207 - 3.0.0  Added full functionality of trackbar that updates based on keypresses and subsetted datafiles
+181207 - 2.2.0  Integrated function that gives optimal step number and step size for trackbar
+181207 - 2.1.0  Added documentation for the Track_manual class and keypress function
+181206 - 2.0.0  Integrated possibility of adding state variable
+181206 - 1.10.1 Fixed showing all datapoints when datafile contains multiple ids
+181206 - 1.10.0 All points (and frame nrs) now immideately update when point is changed
+181206 - 1.9.1  Fixed cropping of data when setting start and stop frame
+181206 - 1.9.0  Added toggles to show/hide all datapoints and their corresponding frame numbers
+181206 - 1.8.0  Added way for user to type in specific frame number
+181206 - 1.7.1  Integrated option to replace, append, or create new datafile
+181206 - 1.7.0  Add video info panel
+181206 - 1.6.5  Fixed pd_to_coords: already written coordinates now being multiplied by resizeval
+181206 - 1.6.4  Trackbar is now same width as video, also when resized
+181206 - 1.6.3  Fixed trackbar issue making manual tracking very slow
+181107 - 1.6.2  Made python 2 and 3 compatible
+180827 - 1.6.1  Fixed rounding of realpt data
+180827 - 1.6.0  Integrated possibility to later overwrite a cropped file
+180827 - 1.5.2  Fixed drawing all coordinates when resizeval is not 1
+180827 - 1.5.1  Integrated printing information at start of script
+180827 - 1.5.0  Added user functionality by cropping dataset to first and last manually tracked frame
+180827 - 1.4.0  Added possible automated sequence numbering to filenames instead of overwriting
+180827 - 1.3.0  Added user functionality of the trackbar to go to the required frame
+180827 - 1.2.1  Improved printing newly added data with fixed widths
+180827 - 1.2.0  Added functionality of drawing all coordinates as points and line with framenumbers
+180827 - 1.1.0  Added functionality of drawing and printing of current coordinates
+180827 - 1.0.1  Integrated loading and appending to existing datafile
+180810 - 1.0.0  First fully working version of mantrack
